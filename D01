@@ -1,0 +1,19 @@
+!pip3 install numpy
+
+import numpy as np
+
+np.__version__
+
+a = np.arange(21) #1.生成一個等差數列，首數為0，尾數為20，公差為1的數列。
+
+a
+
+i=0
+while i <=10:
+    print(L[2*i])  #2.呈上題，將以上數列取出偶數。
+    i=i+1       
+
+i=1
+while i<=6:
+    print(L[3*i]) #3.呈1題，將數列取出3的倍數。
+    i=i+1
